@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.carousel {
+  display: block;
+}
+.d-block{
+  width: 100%;
+  max-height: 92vh;
+}
+.main{
+  /* background-color: rgb(33, 37, 41); */
+}
+.card{
+  margin: 20px;
+  width: 300px;
+  display: inline-block;
+}
+.containerCol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  margin-bottom: 0px;
+}
+.cardRow{
+  background-color: white;
+  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  padding-top: 30px;
+  justify-content: center;
+
+}
+@media (max-width: 1000px) {
+  .cardRow{
+    grid-template-columns: 1fr 1fr ;
+  }
+}
+@media (max-width:680px){
+  .cardRow{
+    grid-template-columns: 1fr;
+  }
+}
+.pageLink{
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+}
+.messageContainer{
+  width: auto;
+  height: auto;
+  display: block;
+  background-color: white;
+  text-align: center;
+  padding-top: 30px;
+  justify-content: space-between;
+}
+.card-img-top{
+  height: 300px;
+  width: 300px;
+}
+.directorImage{
+  width: 350px;
+  display: inline-block;
+  vertical-align: top;
+}
+.directorPhoto{
+  width: 100%;
+  border-radius: 10px;
+  border: 5px solid;
+}
+.horizontalLine{
+  width: 100%;
+  height: 4px;
+  color: rgb(33, 37, 41);
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+.directorMessage{
+  text-align: left;
+  width: 300px;
+  display: inline-block;
+}
+.marketing{
+  margin-top: 64px;
+}
+.row{
+  align-items: center;
+  justify-content: center;
+}
+.featurette-heading{
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.aboutData{
+  font-size: 1.15em;
+}
+.directorImage{
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 2px;
+}
